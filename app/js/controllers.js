@@ -10,3 +10,9 @@ MyCtrl1.$inject = [];
 function MyCtrl2() {
 }
 MyCtrl2.$inject = [];
+
+function CartController($scope){
+    $scope.items=[
+        {tile:'pea',count:8,price:3.00},{tile:'apple',count:9,price:4.00}
+    ]
+}
